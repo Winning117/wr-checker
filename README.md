@@ -59,7 +59,7 @@ urls =  # This is where the player can specify what runs they follow. Proceed ea
 
 
 # Help:
-Need help with your config file? Message me on Github
+Need help with your config file? Email me at Winning117Josh@gmail.com
 
 Find an issue in the code? Submit an error at https://github.com/Winning117/wr-checker/issues
 
