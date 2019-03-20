@@ -2,6 +2,18 @@
 Written by Winning117 (Josh)
 
 # Prerequisites:
+**Linux:** <br />
+```sudo apt install python3``` <br />
+```sudo apt install python3-pip```  <br />
+```pip3 install srcomapi```  <br />
+
+**MacOS:** <br />
+```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"``` <br />
+```brew install python3``` <br />
+```pip install srcomapi``` <br />
+
+**Windows:** <br />
+```sudo apt install python3``` <br />
 ```sudo apt install python3-pip```  <br />
 ```pip3 install srcomapi```  <br />
 
