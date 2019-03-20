@@ -1,5 +1,5 @@
 # WR-Checker - Written by Winning117 (Josh)
-A world-record checker written in Python3 that uses the speedrun.com API 
+A world-record checker written in Python3 that uses the speedrun.com API. The goal of this program is to neatly organize all of the speedruns you wish to follow in one place. Main features include following multiple (unlimited) games at once, showing how far behind the world record each run is, showing when a run was completed, as well as many other customizable options for the user. 
 
 # Prerequisites:
 **Linux:** <br />
