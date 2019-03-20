@@ -5,6 +5,12 @@ Written by Winning117 (Josh)
 ```sudo apt install python3-pip```  <br />
 ```pip3 install srcomapi```  <br />
 
+# Getting started:
+1) Install the prerequisites <br />
+2) Clone this repository to your computer <br />
+3) Edit the config.ini file and change the urls to whatever games you wish to follow
+4) In your terminal type "python3 wr-checker.py"
+
 
 # Using variables and choices:
 
@@ -52,7 +58,7 @@ urls =  # This is where the player can specify what runs they follow. Proceed ea
 
 
 
-# Help
+# Help:
 Need help with your config file? Message me on Github
 
 Find an issue in the code? Submit an error at https://github.com/Winning117/wr-checker/issues
