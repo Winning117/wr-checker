@@ -1,5 +1,5 @@
-# wr-checker
-Written by Winning117 (Josh)
+# WR-Checker - Written by Winning117 (Josh)
+A world-record checker written in Python3 that uses the speedrun.com API 
 
 # Prerequisites:
 **Linux:** <br />
@@ -13,6 +13,7 @@ Written by Winning117 (Josh)
 ```pip install srcomapi``` <br />
 
 **Windows:** <br />
+[Install the Linux Bash shell](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) <br />
 ```sudo apt install python3``` <br />
 ```sudo apt install python3-pip```  <br />
 ```pip3 install srcomapi```  <br />
@@ -73,6 +74,6 @@ urls =  # This is where the player can specify what runs they follow. Proceed ea
 # Help:
 Need help with your config file? Email me at Winning117Josh@gmail.com
 
-Find an issue in the code? Submit an error at https://github.com/Winning117/wr-checker/issues
+Find an issue in the code? [Submit a bug](https://github.com/Winning117/wr-checker/issues)
 
-Have a feature request? Submit a feature request at https://github.com/Winning117/wr-checker/issues
+Have a feature request? [Submit a feature request](https://github.com/Winning117/wr-checker/issues)
