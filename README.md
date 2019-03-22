@@ -3,6 +3,9 @@ A world-record checker written in Python3 that uses the speedrun.com API. The go
 <br />
 ![alt text](https://i.imgur.com/ErxixIu.png)
 
+# Why use this tool instead of using speedrun.com's "Follow" feature?
+The most important reason is speedrun.com's lack of customization for the follow function. I wrote this because I didn't want to be notified every single time there's an individual level WR, even though I only care about any%. This tool completely bypasses that issue by allowing the user to specify the categories of their choosing. Not only can you specify categories, but you can receive notifications for positions other than the world record. What I mean by this is that it will show you when someone gets a new record even if they aren't first place (for example if you have it show 10 places, then someone who gets a personal best for slot #4 will show up). This allows for easier tracking of people climbing the leaderboards and provides a better indication of how close people are to surpassing the current world record. <br />
+
 # Prerequisites:
 **Linux:** <br />
 ```sudo apt install python3``` <br />
