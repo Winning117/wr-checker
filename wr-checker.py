@@ -90,7 +90,7 @@ def get_days_ago(date_as_string):
 
     days_since_last_use = (today - date_last_ran).days
 
-    if days_since_last_use > days_ago:
+    if days_since_last_use >= days_ago:
         days_ago = str(days_ago) + "            NEW"
 
     return days_ago
