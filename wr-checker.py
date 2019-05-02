@@ -200,9 +200,13 @@ def convert_url_to_object(url):
     json_obj = get_json(api_url)
 
     if (variable_id != None):
-        variable_names, choice_names = get_variable_names_and_choice_names(json_obj)
-        variable_name = variable_names[variable_id]
-        choices_name = choice_names[choices_id]
+        try:
+            variable_names, choice_names = get_variable_names_and_choice_names(json_obj)
+            variable_name = variable_names[variable_id]
+            choices_name = choice_names[choices_id]
+        except:
+            print("ERROR: Invalid variable name " + str(variable_id) + ", make sure the variable in your URL is correct")
+            sys.exit(1)
     # if variables exist but aren't specified then give a warning
     else:
         try:
